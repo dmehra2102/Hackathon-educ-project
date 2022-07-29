@@ -37,6 +37,15 @@ const ContextProvider = ({ children }) => {
   const answerCall = () => {
     setCallAccepted(true);
 
+	// var peer = new Peer(undefined, {
+	// 	path: '/peerjs',
+	// 	host: '/',
+	// 	port: '3000',
+	// 	initiator: false,
+	// 	trickle: false,
+	// 	stream ,
+	// 	// config: {'iceServers'}
+	// });    
     const peer = new Peer({ initiator: false, trickle: false, stream });
 
     peer.on('signal', (data) => {
