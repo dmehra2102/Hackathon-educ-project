@@ -1,0 +1,16 @@
+body {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://img.freepik.com/free-vector/online-self-education-cartoon-illustration-with-sitting-textbooks-man-with-laptop-outline-style_1284-59046.jpg?w=2000);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
